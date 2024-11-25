@@ -30,8 +30,8 @@
         </thead>
         <tbody>
             <tr>
-                <td>Row 1, Cell 1</td>
-                <td>Row 1, Cell 2</td>
+                <td>{{ custom.NAME_OF_PROPERTY }}</td>
+                <td>{{ custom.NAME_OF_PROPERTY }}</td>
                 <td>Row 1, Cell 3</td>
                 <td>Row 1, Cell 4</td>
                 <td>Row 1, Cell 5</td>
