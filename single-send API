@@ -1,0 +1,16 @@
+curl --request POST \
+  --url https://api.hubapi.com/marketing/v4/email/single-send \
+  --header 'authorization: Bearer YOUR_ACCESS_TOKEN' \
+  --header 'content-type: application/json' \
+  --data '{
+  "customProperties": {
+    "UPLOAD": "value1",
+    "DOWNLOAD": "value2"
+  },
+  "emailId": 183200546487,
+  "message": {
+
+    "to": "ssims723@gmail.com"
+  },
+  
+}'
