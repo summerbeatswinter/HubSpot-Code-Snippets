@@ -4,8 +4,8 @@ curl --request POST \
   --header 'content-type: application/json' \
   --data '{
   "customProperties": {
-    "UPLOAD": "value1",
-    "DOWNLOAD": "value2"
+    "dailysignups": "value1",
+    "revenue": "value2"
   },
   "emailId": 183200546487,
   "message": {
